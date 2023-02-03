@@ -1,0 +1,134 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body ::-webkit-scrollbar, html ::-webkit-scrollbar {
+    display: none;
+    width: 0;
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    background-color: #303030;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* ---------------header--------------- */
+.header {
+    height: 100%;
+    background-image: url("../img/header.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+.menu__list {
+    padding-top: 75px;
+    display: flex;
+    align-items: center;
+}
+.menu__item__logo {
+    position: relative;
+    left: 0;
+}
+.menu__item__search {
+    position: relative;
+    left: 872px;
+}
+.button__menu {
+    position: relative;
+    left: 900px;
+    width: 167px;
+    height: 62px;
+    background: #00C9E0;
+    box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
+    border-radius: 48px;
+    border: #00C9E0;
+}
+.button__line {
+    position: relative;
+    top: -15px;
+    left: 82px;
+}
+.paragraph__menu {
+    position: relative;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    color: white;
+    text-transform: uppercase;
+    top: 7px;
+}
+h1.heading {
+    font-family: 'Noe Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 153px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 152px;
+}
+h2.sub__heading {
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 15px;
+}
+h3.sub__sub__heading {
+    position: relative;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 643px;
+    padding-top: 50px;
+    left: 230px;
+}
+.scroll__and__social {
+    padding-top: 202px;
+}
+.scroll__text {
+    position: relative;
+    left: -560px;
+    top: -700px;
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 190%;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.9;
+    transform: rotate(-90deg);
+}
+.scroll__line {
+    position: relative;
+    left: -74px;
+    top: -10px;
+}
+.header__gradient {
+    position: absolute;
+    width: 1920px;
+    height: 377px;
+    left: 0;
+    top: 817px;
+    background: linear-gradient(180deg, rgba(1, 22, 39, 0) 0%, #011627 76.64%, #011627 100%);
+}
